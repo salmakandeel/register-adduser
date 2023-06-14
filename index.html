@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="stylee.css">
+    <link rel="stylesheet" href="alertify.min.css" />
+    <title>Registeration&SignIn form</title>
+</head>
+
+    <body>
+        <div class="containear" id="containearId">
+            <!-- <h2>Registeration Form</h2> -->
+            <form id="signUpForm">
+                <legend>
+                    Registeration Form
+                </legend>
+                <input type="text"  name="Name" placeholder="User Name..." required="required">        
+                <input type="email"  name="email" placeholder="Email..." required="required">
+                <input type="text"  name="mobile" placeholder="Mobile..." required="required">
+                <input  type="password"  name="password" placeholder="Password..." required="required">
+                  <input  type="password"  name="confirmPassword" placeholder="Confirm Password..." required="required">
+        
+                    <button id="rgstr_btn" type="submit" value="get Account" >Add User</button>
+                </form>
+        </div>
+                <table id="myTable">
+            
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                        <th>Pasword</th>
+                        <th></th>
+                    </tr>
+                </table>
+    <script type="text/javascript" language="javascript" src="script.js"></script>
+
+    </body>
+</html>
