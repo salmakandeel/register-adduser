@@ -60,10 +60,19 @@ button{
     border: 2px solid rgb(236, 14, 37);
 }
 #myTable{
+    margin: auto;
+    min-width: 310px;
     margin-top: 20px;
     text-align: center;
+    padding: 20px;
+    border: 2px solid #ffc2c2;
+    border-radius: 6px;
+    background: white;
+    height: auto;
+    color: rgb(89, 88, 88);
 }
 th,td{
     margin: 3px;
+    text-align: center;
    
 }
